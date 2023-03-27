@@ -1,36 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>My Website</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Link to your CSS file -->
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<header>
-		<h1>Welcome to my website</h1>
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<h2>About Me</h2>
-		<p>Write a brief introduction about yourself here.</p>
-		<h2>Recent Posts</h2>
-		<ul>
-			<li><a href="#">My First Post</a></li>
-			<li><a href="#">My Second Post</a></li>
-			<li><a href="#">My Third Post</a></li>
-		</ul>
-	</main>
-	<footer>
-		<p>&copy; 2023 My Website</p>
-	</footer>
-</body>
-</html>
+    <header>
+        <nav>
+            <a href="#" class="logo">My Website</a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Welcome to My Website</h1>
+            <p>We are a creative agency that specializes in web design and development.</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="about-text">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod metus vel faucibus lobortis. Sed venenatis lorem vel odio venenatis, eu consectetur lacus interdum. Sed sollicitudin ante in turpis ultrices, vel laoreet neque semper.</p>
+        </div>
+    </section>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service">
+                <i class="fas fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod metus vel faucibus lobortis.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-palette"></i>
+                <h3>Web Design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod metus vel faucibus lobortis.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Mobile Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod metus vel faucibus lobortis.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <h2>Our Portfolio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="img/portfolio-1.jpg" alt="Portfolio Item">
+                <div class="overlay">
+                    <h3>Project Title</h3>
+                    <p>Project Description</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="img/portfolio-2.jpg" alt="Portfolio Item">
+                <div class="overlay">
+                    <h3>Project Title</h3>
+                    <
